@@ -66,6 +66,7 @@ inputButton.addEventListener('click', () => {
     createTask(inputText.value);
     saveData();
     reloadTaskList();
+    inputText.value = '';
   } else {
     alert('Input tidak boleh kosong!');
   }

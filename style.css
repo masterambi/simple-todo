@@ -1,0 +1,169 @@
+/* --- UNIVERSAL --- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.clear {
+  clear: both;
+}
+
+h1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.white {
+  color: #f6f5f5;
+}
+
+.black {
+  color: #4a5568;
+}
+
+.blue {
+  color: #145374;
+}
+
+.dark-blue {
+  color: #00334e;
+}
+
+.orange {
+  color: #ee6f57;
+}
+
+.bg-white {
+  background-color: #f6f5f5;
+}
+
+.bg-blue {
+  background-color: #145374;
+}
+
+.bg-dark-blue {
+  background-color: #00334e;
+}
+
+.bg-orange {
+  background-color: #ee6f57;
+}
+
+/* --- HEAD --- */
+
+header {
+  text-align: center;
+  padding: 1.2rem;
+  position: fixed;
+  width: 100%;
+}
+
+header .title {
+  text-transform: uppercase;
+}
+
+/* --- MAIN --- */
+
+main {
+  padding-top: 10rem;
+}
+
+/* Form Section */
+
+.form-section {
+  padding: 1.4rem;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 0.5rem;
+}
+
+.form-section #input-text {
+  padding: 0.5rem;
+  width: 80%;
+  margin-right: 2%;
+  border-radius: 0.5rem;
+  border: 1px solid #ee6f57;
+  color: #4a5568;
+  font-size: 1.6rem;
+}
+
+.form-section button {
+  padding: 0.6rem;
+  width: 15%;
+  border-radius: 0.5rem;
+  font-size: 1.6rem;
+}
+
+.btn-orange {
+  background-color: #f6f5f5;
+  color: #ee6f57;
+  font-weight: 600;
+  border: 1px solid #ee6f57;
+  cursor: pointer;
+}
+
+.btn-orange:hover {
+  background-color: #ee6f57;
+  color: #f6f5f5;
+}
+
+/* To Do Section */
+
+.todo-section {
+  padding-top: 4rem;
+}
+
+.list {
+  padding: 1.4rem;
+  border-radius: 0.5rem;
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.list p {
+  font-size: 1.4rem;
+  font-weight: 600;
+  flex: 1;
+}
+
+.list button {
+  font-size: 1.6rem;
+  height: 3.4rem;
+  width: 3.4rem;
+}
+
+.btn-delete {
+  background-color: #d9514d;
+  border: none;
+  font-weight: 600;
+  color: #f6f5f5;
+  margin-right: 0.8rem;
+  border: 1px solid #d9514d;
+}
+
+.btn-done {
+  background-color: #5cb85c;
+  border: 1px solid #5cb85c;
+  font-weight: 600;
+  color: #f6f5f5;
+}
+
+.done {
+  opacity: 0.5;
+}

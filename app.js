@@ -5,11 +5,11 @@ let tasks = [];
 
 function saveData() {
   let tasksString = JSON.stringify(tasks);
-  localStorage.setItem('todo-tasks12345', tasksString);
+  localStorage.setItem('todo-tasks123456', tasksString);
 }
 
 function loadData() {
-  let dataString = localStorage.getItem('todo-tasks12345');
+  let dataString = localStorage.getItem('todo-tasks123456');
   let data = JSON.parse(dataString);
   return data ? data : [];
 }
